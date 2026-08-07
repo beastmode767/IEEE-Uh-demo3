@@ -249,10 +249,13 @@ footer {
 /* --- Custom Page Backgrounds --- */
 
 /* 1. Schematic Dot Grid (Home) */
+/* 1. Schematic Dot Grid (Home) */
 body.bg-dot-grid {
-    background-image: radial-gradient(var(--border) 1px, transparent 1px);
+    /* Changed the dot color from var(--border) to a visible light blue */
+    background-image: radial-gradient(rgba(0, 98, 155, 0.25) 1.5px, transparent 1.5px);
     background-size: 24px 24px;
 }
+
 
 /* 2. Soft Ambient Gradients (About Us) */
 body.bg-ambient {
