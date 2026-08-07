@@ -106,6 +106,24 @@ ul, ol {
     padding-left: 2rem;
 }
 
+/* --- Standard Text Links --- */
+main a {
+    color: var(--ieee-blue);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+main a:hover {
+    color: var(--ieee-blue-hover);
+    text-decoration: underline;
+}
+
+/* Ensure buttons don't get underlined on hover */
+main a.btn-primary:hover, main a.btn-secondary:hover {
+    text-decoration: none;
+}
+
 /* --- Hero Section (Landing Page) --- */
 .hero {
     text-align: center;
