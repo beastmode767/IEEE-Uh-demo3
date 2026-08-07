@@ -235,3 +235,14 @@ footer {
     background-color: #f8f9fa;
     color: var(--text-muted);
 }
+/* --- Scroll Reveal Animations --- */
+.hidden-state {
+    opacity: 0;
+    transform: translateY(40px);
+}
+
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
