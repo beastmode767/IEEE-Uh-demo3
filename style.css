@@ -281,3 +281,77 @@ body.bg-particles main {
     position: relative;
     z-index: 1;
 }
+
+/* 4. Technical Blueprint Grid (Projects) */
+/* Straight overlapping lines mimicking an architectural draft */
+body.bg-blueprint {
+    background-color: #ffffff;
+    background-image: 
+        linear-gradient(rgba(0, 98, 155, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 98, 155, 0.15) 1px, transparent 1px);
+    background-size: 40px 40px;
+}
+
+/* 5. Sleek Diagonal Motion (Events) */
+/* Subtle forward-leaning stripes to represent scheduling and momentum */
+body.bg-stripes {
+    background-color: #ffffff;
+    background-image: repeating-linear-gradient(
+        45deg, 
+        rgba(0, 98, 155, 0.03) 0, 
+        rgba(0, 98, 155, 0.03) 10px, 
+        transparent 10px, 
+        transparent 20px
+    );
+}
+
+/* 6. Premium Frosted Glass (Sponsors) */
+/* A corporate, heavy diagonal gradient from white to light gray/blue */
+body.bg-glass {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(135deg, #ffffff 0%, rgba(0, 98, 155, 0.08) 100%);
+    background-attachment: fixed;
+}
+
+/* 7. Hybrid: Glowing Ambient Grid (Resources) */
+/* Combines the home page dots with a central cyan glow to look like a server room */
+body.bg-ambient-grid {
+    background-color: #ffffff;
+    background-image: 
+        radial-gradient(rgba(0, 98, 155, 0.25) 1.5px, transparent 1.5px),
+        radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.15) 0%, transparent 60%);
+    background-size: 24px 24px, 100% 100%;
+    background-attachment: fixed;
+}
+
+/* 8. Heritage Mesh (Alumni) */
+/* Soft, sweeping corner gradients that feel established and professional */
+body.bg-mesh {
+    background-color: #ffffff;
+    background-image: 
+        radial-gradient(at 80% 0%, rgba(0, 98, 155, 0.15) 0px, transparent 60%),
+        radial-gradient(at 20% 100%, rgba(0, 98, 155, 0.10) 0px, transparent 60%);
+    background-attachment: fixed;
+}
+
+/* 9. Radar Waves (Competitions) */
+/* Concentric rings expanding outward to represent signals/robotics sensors */
+body.bg-radar {
+    background-color: #ffffff;
+    background-image: repeating-radial-gradient(
+        circle at 50% 50%, 
+        transparent 0, 
+        transparent 40px, 
+        rgba(0, 98, 155, 0.05) 40px, 
+        rgba(0, 98, 155, 0.05) 41px
+    );
+    background-attachment: fixed;
+}
+
+/* 10. Top Center Spotlight (Shop) */
+/* A clean light casting down from the top to make the merchandise cards pop */
+body.bg-spotlight {
+    background-color: #ffffff;
+    background-image: radial-gradient(circle at 50% 0%, rgba(0, 98, 155, 0.12) 0%, transparent 70%);
+    background-attachment: fixed;
+}
