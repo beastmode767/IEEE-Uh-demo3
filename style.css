@@ -246,3 +246,35 @@ footer {
     transform: translateY(0);
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+/* --- Custom Page Backgrounds --- */
+
+/* 1. Schematic Dot Grid (Home) */
+body.bg-dot-grid {
+    background-image: radial-gradient(var(--border) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+/* 2. Soft Ambient Gradients (About Us) */
+body.bg-ambient {
+    background-color: #ffffff;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(0, 98, 155, 0.08) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(56, 189, 248, 0.12) 0px, transparent 50%);
+    background-attachment: fixed;
+}
+
+/* 3. Interactive Particles (Membership) */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Keeps particles safely behind your text */
+    background-color: var(--bg-main);
+}
+
+body.bg-particles main {
+    position: relative;
+    z-index: 1;
+}
